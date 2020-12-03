@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lixu09">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="李旭 18990152"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.lixu09.ScheduleDetailActivity"
+            android:exported="true"/>
+        <activity
+            android:name="com.example.lixu09.ScheduleActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.lixu09.TabButtonActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
